@@ -3,7 +3,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 const { callbackQuery } = require('telegraf/filters');
 const { inlineKeyboard, button } = require('telegraf/markup');
-const TOKEN = '7018192658:AAH2Sqz36V3QZSYN_nfOfKzVDvvgu3WLWKI';
+const TOKEN = 'your token';
 const bot = new TelegramBot(TOKEN, { polling: {interval: 1000, autoStart: true}});
 
 const CEO_ID = 2110633873;
