@@ -6,8 +6,8 @@ const { inlineKeyboard, button } = require('telegraf/markup');
 const TOKEN = 'your token';
 const bot = new TelegramBot(TOKEN, { polling: {interval: 1000, autoStart: true}});
 
-const CEO_ID = 2110633873;
-const CHANNEL_ID = -1002339136855;
+const CEO_ID = "Your id";
+const CHANNEL_ID = "Your channel's id";
 const BAN_LIST = {};
 
 bot.on('polling_error', err => console.log('error'));
